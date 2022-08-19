@@ -1,0 +1,21 @@
+- Company: Harvard
+  Title: Decriptor 1
+  id: descriptor1
+  data-id: data-des1
+  heading-id: head-des1
+  StartDate: 08/30/2019
+  EndDate: 08/30/2020
+  first: true   # one must be true to properly display
+  description: >
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+- Company: Princeton
+  Title: Decriptor 2
+  id: descriptor2
+  data-id: data-des2
+  heading-id: head-des2
+  StartDate: 10/30/2019
+  EndDate: 10/30/2020
+  first: false   # one must be true to properly display
+  description: >
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
