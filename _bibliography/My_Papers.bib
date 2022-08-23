@@ -1,0 +1,144 @@
+
+@inproceedings{guehoComparisonParametricNonParametric2020,
+  title = {A {{Comparison}} of {{Parametric}} and {{Non-Parametric Machine Learning Approaches}} for the {{Uncertain Lambert Problem}}},
+  booktitle = {{{AIAA Scitech}} 2020 {{Forum}}},
+  author = {Gueho, Damien and Singla, Puneet and Melton, Robert G. and Schwab, David},
+  year = {2020},
+  month = jan,
+  publisher = {{American Institute of Aeronautics and Astronautics}},
+  address = {{Orlando, FL}},
+  doi = {10.2514/6.2020-1911},
+  url = {https://arc.aiaa.org/doi/10.2514/6.2020-1911},
+  urldate = {2021-09-03},
+  abstract = {The uncertain Lambert problem has important applications in Space Situational Awareness (SSA). While formulating the solution to this problem, it is of great interest to characterize the uncertainty associated with the solution as a function of position vector uncertainties at initial and final times. Previous work in this respect has concentrated on deriving a stochastic framework that exploits dynamical system theory in conjunction with non-product quadrature methods to compute higher order sensitivity matrices for accurately characterizing the uncertainty associated with Lambert problem solution. While deep learning tools have gained tremendous attention in various fields such as physics, biology, and manufacturing, existing tools for regression and classification do not capture model uncertainty. In comparison, Bayesian-based models offer a solid and robust mathematically grounded framework to reason about model uncertainty, but usually come with a prohibitive computational cost. In aerospace systems, representing model uncertainty is of crucial importance. The objective of this work will be to conduct a detailed comparison between classical dynamical system based approaches with recent advances in Machine Learning (ML) to characterize the uncertainty associated with the Lambert problem solution. In particular, we will consider parametric ML approaches such as multi-layered neural networks and a non-parametric Bayesian approach known as Gaussian Process Regression to learn a surrogate model representing the Lambert problem solution in the neighborhood of the nominal solution. Numerical experiments will be conducted to assess the relative merits of each of the methods considered in terms of accuracy of representing the uncertainty associated with the Lambert problem solution as well as numerical efficiency.},
+  isbn = {978-1-62410-595-1},
+  langid = {english},
+  file = {C\:\\Users\\dschw\\Zotero\\storage\\HPRUC6Z8\\Gueho et al. - 2020 - A Comparison of Parametric and Non-Parametric Mach.pdf}
+}
+
+@inproceedings{hallReachabilityBasedApproachSearch2022a,
+  title = {Reachability-{{Based Approach}} for {{Search}} and {{Detection}} of {{Maneuvering Cislunar Objects}}},
+  booktitle = {{{AIAA SCITECH}} 2022 {{Forum}}},
+  author = {Hall, Zach and Schwab, David and Eapen, Roshan and Singla, Puneet},
+  year = {2022},
+  month = jan,
+  series = {{{AIAA SciTech Forum}}},
+  publisher = {{American Institute of Aeronautics and Astronautics}},
+  address = {{San Diego, CA \& Virtual}},
+  doi = {10.2514/6.2022-0853},
+  url = {http://arc.aiaa.org/doi/10.2514/6.2022-0853},
+  urldate = {2022-01-21},
+  abstract = {With recent and planned missions to cislunar space, there exists a developing need for expanding space domain awareness to include cislunar space. Detection, tracking, and maneuver reconstruction in Earth orbits is already a difficult task and is exponentially more difficult in the cislunar domain given the shear volume and the chaotic nature of the three-body problem. Additionally, many of these methods assume that measurements of the target spacecraft are readily available. The focus of this work is to examine the utility of the recently developed reachability set search (RSS) algorithm in regaining custody of a cislunar target lost due to an unknown, bounded maneuver. The objective of in this work is to numerically define a Taylor series approximation to the reachability set of a cislunar spacecraft given a priori knowledge on only the maximum delta-v and a window for the time-of-maneuver, optimally search the reachability set, and perform state estimate and maneuver reconstruction following detection of the target. This algorithm is tested two scenarios: a L1 halo orbit and a L2 Lyapunov to L1 Lyapunov transfer with 10 m/s and 100 m/s maneuver capabilities, respectively. The RSS algorithm proves effective assuming accurate reachability set approximations, which is a function of the order of the polynomial approximation, volume of the true reachable space, and proximity to the lunar singularity.},
+  file = {C\:\\Users\\dschw\\Zotero\\storage\\8GZT34Y3\\Hall et al. - 2021 - Reachability-Based Approach for Search and Detecti.pdf}
+}
+
+@inproceedings{hixonConjugateUnscentedTransformation2019,
+  title = {Conjugate {{Unscented Transformation Based Semi-Analytic Approach}} for {{Uncertainty Characterization}} of {{Angles-Only Initial Orbit Determination Algorithms}}},
+  booktitle = {70th {{International Astronautical Congress}}},
+  author = {Hixon, Sean and Schwab, David and Reiter, Jason and Singla, Puneet},
+  year = {2019},
+  month = oct,
+  publisher = {{IAF/AAS}},
+  address = {{Washington, D.C.}},
+  abstract = {Conventional initial orbit determination (IOD) methods result in a deterministic solution for orbit parameters without any knowledge of the associated uncertainty. The main objective of this paper is to develop a semi-analytical means to compute the uncertainty associated with the output of IOD algorithms. The main idea is to use the transformation of variables (TOV) method to compute the probability density function (PDF) associated with the orbit parameters (output of the IOD algorithms) as a function of the uncertainty in the angular observations. Generally, the application of the TOV method requires the computation of a sensitivity matrix for mapping between the observation (angular) space and the orbit elements, which is tedious to compute for a generic IOD algorithm. Building upon our prior work, we will utilize the non-product quadrature method known as the Conjugate Unscented Transformation (CUT) to compute these sensitivity matrices in a non-intrusive manner through the solution of a continuous least squares problem. For this purpose, the solution of an IOD algorithm is expanded in terms of orthogonal polynomial basis functions where the coefficients of the polynomial basis functions correspond to the higher order sensitivity of the IOD solution. The CUT method is utilized for the purposes of computing the multi-dimensional expectation integrals required to determine the unknown polynomial coefficients in a computationally attractive manner. The CUT method can be considered an extension of the well-known unscented transformation and provides the minimal points to compute the multidimensional expectation integrals of desired order polynomial functions with respect to Gaussian and uniform density functions. The main advantage of the proposed approach is that it will provide a unifying framework to accurately characterize the non-Gaussian uncertainty associated with any IOD algorithm. The provided orbit parameter state PDF can then be used to initialize sequential orbit determination algorithms (such as the Kalman filter) rather than depending upon artistic tuning. In particular, different orbits and observation geometries will be used to validate the developed approach.},
+  langid = {english},
+  file = {C\:\\Users\\dschw\\Zotero\\storage\\YLYP4CGG\\Hixon et al. - 2019 - CONJUGATE UNSCENTED TRANSFORMATION BASED SEMI-ANAL.pdf}
+}
+
+@inproceedings{mayerOrbitCharacterizationDetermination2022,
+  title = {Orbit {{Characterization}} and {{Determination Strategies}} in the {{CR3BP Framework}}},
+  booktitle = {2022 {{AAS}}/{{AIAA Astrodynamics Specialist Conference}}},
+  author = {Mayer, Madeline and Schwab, David and Eapen, Roshan and Singla, Puneet},
+  year = {2022},
+  month = aug,
+  address = {{Charlotte, North Carolina}},
+  abstract = {The usefulness of existing architectures for Space Domain Awareness (SDA) can diminish greatly in the expansive Earth neighborhood within Lunar orbit. With the proposed expansions of activities in cislunar space, traditional SDA approaches must be augmented with newer tools. This paper investigates two orbit characterization strategies that relies on leveraging existing analytic formulations in the vicinity of the Earth-Moon Lagrange points: (a) using Richardson's variables to characterize Halo orbits by performing a reduction to the center manifold, and (b) using action-angle variables defined from a normal-form approximation of the CR3BP Hamiltonian. The action-angle variables are proposed as an orbital-elements alternative for the CR3BP. The utility of the proposed strategies are demonstrated through orbit determination examples.},
+  langid = {english},
+  file = {C\:\\Users\\dschw\\Zotero\\storage\\KVVSZ33U\\Mayer et al. - ORBIT CHARACTERIZATION AND DETERMINATION STRATEGIE.pdf}
+}
+
+@article{schwabAnglesOnlyInitialOrbit2022,
+  title = {Angles-{{Only Initial Orbit Determination}} via {{Multivariate Gaussian Process Regression}}},
+  author = {Schwab, David and Singla, Puneet and O'Rourke, Sean},
+  year = {2022},
+  month = jan,
+  journal = {Electronics},
+  volume = {11},
+  number = {4},
+  publisher = {{Multidisciplinary Digital Publishing Institute}},
+  issn = {2079-9292},
+  doi = {10.3390/electronics11040588},
+  url = {https://www.mdpi.com/2079-9292/11/4/588},
+  urldate = {2022-02-24},
+  abstract = {Vital for Space Situational Awareness, Initial Orbit Determination (IOD) may be used to initialize object tracking and associate observations with a tracked satellite. Classical IOD algorithms provide only a point solution and are sensitive to noisy measurements and to certain target-observer geometry. This work examines the ability of a Multivariate GPR (MV-GPR) to accurately perform IOD and quantify the associated uncertainty. Given perfect test inputs, MV-GPR performs comparably to a simpler multitask learning GPR algorithm and the classical Gauss\textendash Gibbs IOD in terms of prediction accuracy. It significantly outperforms the multitask learning GPR algorithm in uncertainty quantification due to the direct handling of output dimension correlations. A moment-matching algorithm provides an analytic solution to the input noise problem under certain assumptions. The algorithm is adapted to the MV-GPR formulation and shown to be an effective tool to accurately quantify the added input uncertainty. This work shows that the MV-GPR can provide a viable solution with quantified uncertainty which is robust to observation noise and traditionally challenging orbit-observer geometries.},
+  copyright = {http://creativecommons.org/licenses/by/3.0/},
+  langid = {english},
+  keywords = {Gaussian Process Regression,Initial Orbit Determination,machine learning,Space Situational Awareness},
+  file = {C\:\\Users\\dschw\\Zotero\\storage\\DMML4849\\Schwab et al. - 2022 - Angles-Only Initial Orbit Determination via Multiv.pdf;C\:\\Users\\dschw\\Zotero\\storage\\BN5AVQ3B\\588.html}
+}
+
+@inproceedings{schwabApproximatingAdmissibleControl2022,
+  title = {Approximating {{Admissible Control}} onto the {{Cislunar Highways}} for {{Detection}} and {{Tracking}} of {{Spacecraft}}},
+  booktitle = {2022 {{AAS}}/{{AIAA Astrodynamics Specialist Conference}}},
+  author = {Schwab, David and Eapen, Roshan and Singla, Puneet},
+  year = {2022},
+  month = aug,
+  address = {{Charlotte, North Carolina}},
+  abstract = {There exists a need to expand current Space Domain Awareness (SDA) architectures to account for additional challenges present in cislunar space. A scenario of particular importance is the ability to define a useful search space if custody of a cislunar spacecraft has been lost. Invariant manifold structures present in the dynamics of the circular three-body problem (CR3BP) define highways in which spacecraft must reside to transit to different regimes of the CR3BP. This paper aims to approximately define admissible controls which will enter a spacecraft onto these highways and use this estimate to define an intelligent search space.},
+  langid = {english},
+  file = {C\:\\Users\\dschw\\Zotero\\storage\\SAKH5LVY\\Schwab et al. - APPROXIMATING ADMISSIBLE CONTROL ONTO THE CISLUNAR.pdf}
+}
+
+@inproceedings{schwabCombiningLSTMMDN2021,
+  title = {Combining {{LSTM}} and {{MDN Networks}} for Traffic Forecasting Using the {{Argoverse Dataset}}},
+  booktitle = {2021 {{IEEE}} 24th {{International Conference}} on {{Information Fusion}} ({{FUSION}})},
+  author = {Schwab, David and O'Rourke, Sean M. and Minnehan, Breton L.},
+  year = {2021},
+  month = nov,
+  pages = {1--6},
+  address = {{Sun City, South Africa \& Virtual}},
+  doi = {10.23919/FUSION49465.2021.9627009},
+  url = {https://ieeexplore.ieee.org/document/9627009/},
+  abstract = {Trajectory forecasting is vital to target tracking, autonomous decision making, and other fields critical to the future of autonomous systems. Tracking algorithms, such as the Kalman Filter, require accurate motion models in order to forecast target trajectories and update state estimates given observation data. Unfortunately, accurate motion models are not always easily de- fined. Of particular interest is forecasting in systems with complex agent-to-agent and agent-to-scene interactions, which are often best represented as a multimodal distribution. Various network architectures tackle this multimodal problem in different ways, but the method used in this work is a mixture density network. The network architecture examined in this work, LSTM2MDN, builds off previous research in combining the renowned long- short term memory (LSTM) network with a mixture density network (MDN) in order to develop accurate distributions for output trajectories.},
+  keywords = {Autonomous systems,Conferences,Data models,Decision making,Network architecture,Predictive models,Target tracking},
+  file = {C\:\\Users\\dschw\\Zotero\\storage\\IZIY6E23\\Schwab et al. - 2021 - Combining LSTM and MDN Networks for traffic foreca.pdf;C\:\\Users\\dschw\\Zotero\\storage\\J93N2JSY\\9627009.html}
+}
+
+@mastersthesis{schwabEfficacyGaussianProcess2020,
+  title = {Efficacy of {{Gaussian Process Regression}} for {{Angles-Only Initial Orbit Determination}}},
+  author = {Schwab, David},
+  year = {2020},
+  month = aug,
+  url = {https://etda.libraries.psu.edu/catalog/17641dvs5558},
+  abstract = {Vital for space situational awareness, Initial Orbit Determination (IOD) may be used to initialize object tracking and associate observations with a tracked satellite. These classical IOD algorithms provide only a point solution and have been shown to be sensitive to noisy measurements and to certain target observer geometry. First, the effects of measurement noise is investigated with respect to the classical Gauss-Gibbs IOD algorithm in various orbit regimes. While sensitive to the input noise in general, this classical method completely degenerates near a coplanar orbit, i.e. an observer-target geometry that induces linearly dependent line-of-sight measurements, which is a well studied failure mode of most minimum-measurement angles-only IOD algorithms. In an effort to bypass the sensitivity to noise and the case of coplanar degradation, this work utilizes an supervised learning algorithms known as Gaussian Process Regression (GPR). In this work, two multi-variate GPR frameworks are trained to perform angles only orbit determination: 1) a simple model that assumes the predicted outputs are independent (ind GPR) and 2) a complex model that accounts for output correlations (MV-GPR). The ability of both GPR methods to accurately predict the Cartesian state of the target is then benchmarked against the classical Gauss-Gibbs method for both perfect and noisy measurements, showing GPR prediction accuracy is robust to measurement noise and provides orders of magnitude improvement for prediction near the coplanar orbit case. Additionally, GPR not only provides a point-estimate for the IOD process but also characterizes the associated model uncertainty. The accuracy of this uncertainty characterization is investigated and compared between the two GPR methods. Numerical results show that while the added complexity of MV-GPR shows limited gains in estimation accuracy compared to ind-GPR, significant improvement is seen in the characterization of model uncertainty in the presence of perfect measurements.},
+  school = {The Pennsylvania State University}
+}
+
+@inproceedings{schwabMultiVariateGaussianProcess2020,
+  title = {Multi-{{Variate Gaussian Process Regression}} for {{Angles-Only Initial Orbit Determination}}},
+  booktitle = {2020 {{AAS}}/{{AIAA Astrodynamics Specialist Conference}}},
+  author = {Schwab, David and Singla, Puneet and Huang, Daning},
+  year = {2020},
+  month = aug,
+  publisher = {{American Astronautical Society}},
+  address = {{Lake Tahoe, CA}},
+  abstract = {Vital for Space Situational Awareness, initial orbit determination is used to initialize object tracking and associate observations with a tracked satellite. These classical IOD algorithms provide only a point solution and have been shown to be sensitive to noisy measurements and to certain target-observer geometry. In this work, a multivariate Gaussian process regression (GPR) is trained to perform angles-only orbit determination. This work extends the GPR approach to accurately quantify the orbit states along with associated covariance. The numerical simulations shows that by accounting for correlations in the outputs, the GPR process provides more accurate estimate of orbit uncertainty.},
+  langid = {english},
+  file = {C\:\\Users\\dschw\\Zotero\\storage\\KKWPYZYN\\Schwab et al. - MULTI-VARIATE GAUSSIAN PROCESS REGRESSION FOR ANGL.pdf}
+}
+
+@inproceedings{schwabUncertaintyCharacterizationSurrogate2019,
+  title = {Uncertainty {{Characterization}} and {{Surrogate Modeling}} for {{Angles-Only Initial Orbit Determination}}},
+  booktitle = {2019 {{AAS}}/{{AIAA Astrodynamics Specialist Conference}}},
+  author = {Schwab, David and Singla, Puneet and Raquepas, Joseph},
+  year = {2019},
+  month = aug,
+  series = {Astrodynamics {{Specialist Conference}}},
+  publisher = {{American Astronomical Society}},
+  address = {{Portland, ME}},
+  abstract = {Initial orbit determination may be used to initialize object tracking and associate observations with a tracked satellite, but only if uncertainty information exists for the approximated orbit. While classical initial orbit determination algorithms only provide a point solution, uncertainty information may be inferred using Monte Carlo or deterministic sampling techniques. Along with uncertainty characterization, two statistical learning techniques are tested in their ability to approximate the orbit determination mapping: first, a polynomial approximation built from the statistical moments in the state space and second, Gaussian Process Regression.},
+  langid = {english},
+  file = {C\:\\Users\\dschw\\Zotero\\storage\\EX5NAMK4\\Schwab et al. - UNCERTAINTY CHARACTERIZATION AND SURROGATE MODELIN.pdf}
+}
+
+

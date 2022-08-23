@@ -1,21 +1,43 @@
-- Company: Harvard
-  Title: Decriptor 1
-  id: descriptor1
-  data-id: data-des1
-  heading-id: head-des1
-  StartDate: 08/30/2019
-  EndDate: 08/30/2020
+- Company: The Pennsylvania State University/AFRL-RV
+  Title: SMART Scholar
+  id: SMART
+  data-id: data-SMART
+  heading-id: head-SMART
+  StartDate: 08/2021
+  EndDate: Present
   first: true   # one must be true to properly display
   description: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+    Developing a framework for Cislunar Space Situational Awareness by combining the cislunar custody maintenance and tracking problem via defining an intelligently designed search region. Working in collaboration with the Space Vehicles directorate at Kirtland AFB.
 
-- Company: Princeton
-  Title: Decriptor 2
-  id: descriptor2
-  data-id: data-des2
-  heading-id: head-des2
-  StartDate: 10/30/2019
-  EndDate: 10/30/2020
+- Company: The Pennsylvania State University
+  Title: Research Assistant
+  id: RA
+  data-id: data-RA
+  heading-id: head-RA
+  StartDate: 05/2018
+  EndDate: 07/2021
   first: false   # one must be true to properly display
   description: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+    Investigated custody maintenance of non-cooperative, maneuvering. Researched ability of sigma point sampling and Gaussian Process Regression (GPR) to model angles-only initial orbit determination (IOD) in multiple orbit regimes. Utilize OpenCV for feature detection and Lucas-Kanade optical flow methods. Programing camera pose estimation algorithm on GPU development kit connected to a stereo vision camera.
+
+- Company: Wright State University/AFRL-RY
+  Title: Autonomy Technology Research Center (ATRC) Intern
+  id: ATRC
+  data-id: data-ATRC
+  heading-id: head-ATRC
+  StartDate: 05/2020
+  EndDate: 07/2021
+  first: false   # one must be true to properly display
+  description: >
+    Research on sensing autonomy using state-of-the-art in machine learning.  Continue internship into academic year researching sensor management and tracking maneuvering spacecraft in a Space Situational Awareness framework.
+
+- Company: Griffiss Institute/AFRL-RI
+  Title: Summer Intern
+  id: ATRC
+  data-id: data-ATRC
+  heading-id: head-ATRC
+  StartDate: 06/2019
+  EndDate: 08/2019
+  first: false   # one must be true to properly display
+  description: >
+    Researched utilizing GPR to conduct angles only IOD. Utilized traditional IOD-methods with importance sampling for IOD uncertainty characterization.

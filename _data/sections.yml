@@ -1,33 +1,18 @@
 - name: Publications
   id: publications
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  description: My publications are listed below with their abstracts. Feel free to contact me if you are not able to retrieve the full paper.
   url: publications.html
   first: true
   
-# - name: Coursework
-#   id: courses
-#   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-#   content: 
-#   first: false
-
 - name: Experience
   id: experience
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  description: Placeholder.
   content: 
   url: experience.html
   first: false
 
-  # name: Experience
-  # id: experience
-  # description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  # content: 
-  # url: experience.html
-  # first: false
-
-# - name: Projects
-#   id: projects
+# - name: Contact
+#   id: contact
 #   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 #   content: 
-#   url: projects.html
 #   first: false
-
