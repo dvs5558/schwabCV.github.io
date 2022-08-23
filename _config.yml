@@ -10,17 +10,17 @@
 
 title: Schwab 
 email: 
-description: a minimalistic jekyll theme for academics
+description: David Schwab's online CV
 baseurl:                                       # the subpath of your site, e.g. /blog
-url: "https://dumbarton.netlify.app/"          # the base hostname & protocol for your site, e.g. http://example.com
-image: /assets/img/dumbarton.png               # used to generate site link preview
-image_alt: A minimalistic jekyll theme for academic    # image description
+url: "https://schwabCV.github.io"          # the base hostname & protocol for your site, e.g. http://example.com
+image: /assets/img/avatar/ProfImage.jpg              # used to generate site link preview
+# image_alt: A minimalistic jekyll theme for academic    # image description
 
 # =======================================#
 # -----------SITE SETTINGS---------------#
 #========================================#: 
 author: David Schwab 
-profile_image: /assets/img/avatar/cropped.png #/assets/img/avatar/avatar.jpeg 
+profile_image: /assets/img/avatar/ProfImage.jpg #/assets/img/avatar/avatar.jpeg 
 occupation: 
 snippet:
 twitter: 
@@ -30,7 +30,7 @@ stackoverflow:
 website: 
 codepen: 
 medium: 
-email: 
+email: "dvs5558@psu.edu"
 keybase: 
 # pgp: 
 ctftime: 
@@ -46,7 +46,7 @@ ui_theme: abyss                                 # Create your own theme by setti
 # -----------BLOG SETTINGS---------------#
 #========================================#
 
-tags:  post jekyll styleguide ipsum
+tags:  
 twitter-widget: false # true,false                  # Used to show your twitter timeline on blog home page
 
 comments: false                                     # Used to enable comments on blog posts
@@ -119,8 +119,10 @@ scholar:
   last_name: Schwab
   style: apa
   locale: en
+  sort_by: year,month
+  order: descending
   source: /_bibliography/
-  bibliography: papers.bib
+  bibliography: My_Papers.bib
   bibliography_template: bib
   replace_strings: true
   join_strings: true
@@ -133,7 +135,7 @@ scholar:
 # ------------CDN SETTINGS---------------#
 #-------------Used to generate icons-----#
 #========================================#
-font_awesome_id: 32a2b2a489                       # Register for free at https://fontawesome.com/ to get your id
+font_awesome_id:                        # Register for free at https://fontawesome.com/ to get your id 32a2b2a489
 
 
 # =======================================#        # For more information about these settings, visit https://htmlhead.dev #
@@ -150,6 +152,3 @@ x-dns-prefetch-control: on                        # on or off. Completely opt ou
 fbappid:                                          # Facebook OpenGraph 
 
 
-
-
-email: "dvs5558@psu.edu"
