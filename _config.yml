@@ -12,7 +12,7 @@ title: Schwab
 email: 
 description: David Schwab's online CV
 baseurl:                                       # the subpath of your site, e.g. /blog
-url: "https://schwabCV.github.io"          # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://david-schwab.netlify.app"          # the base hostname & protocol for your site, e.g. http://example.com
 image: /assets/img/avatar/ProfImage.jpg              # used to generate site link preview
 # image_alt: A minimalistic jekyll theme for academic    # image description
 
